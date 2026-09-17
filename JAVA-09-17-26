@@ -1,0 +1,121 @@
+# PAULE_KENNETH_JAVA_09-17-26
+
+  import java.util.Scanner;
+
+public class Main {
+}
+    public static void main(String[] args) {
+      Scanner scanner = new Scanner(System.in);
+    }
+    
+
+//--DECLARING VARIABLES OF DIFF DATA TYPES--
+//int-Whole Number
+//double- double precision of decimal number
+//float-single precision of decimal number
+//char-single character(single quotes)
+//boolen- true or false
+//String - text of not primative
+
+// Calling the data types with variable and value
+int       age     =      20         ;//WHOLE NUMBER
+^          ^      ^      ^          ^ 
+types  variable   EQ    value      close tag
+
+double price = 40.55;//double precisions
+float weight = 85.9f// single precision using 'f'
+char grade = 'A';// single character
+boolean isStudent = true;// True or False
+string name = "Alice"; // Not Primative Text
+
+//--Output using System.out.printIn---
+System.out.println("Name: "+name);
+System.out.println("Age: "+age);
+System.out.println("Price: "+price);
+System.out.println("Weight: "+weight);
+System.out.println("Grade: "+grade);
+System.out.println("Is Student? "+isStudent);
+
+import java.util.Scanner;
+public class Main{
+  public static void main(String[] args){
+System.out.print(""\nEnter your city: );
+String userCity =scanner.next();//reads one
+word(stops at whitespaces)
+System.out.println("You live in:" +useCity);
+
+//---Reading a full line(including spaces)---
+scanner.nextline();//clear leftover newline from 
+previous next()
+System.out.print("Enter a sentence about yourself");
+String fullSentence = scanner.nextline();//read the enterline
+System.out.println("You said: "+fullSentence);
+
+scanner.close();
+  }
+}
+
+//Operators and Expressions (+,-,*,/,%,<,>,=,!= ||,&&)
+puclic class Main {
+  public static void main(String[] args){
+
+    int a = 10, b = 3
+    System.out.println("a + b ="+(a + b));
+    //output: a + b = 13
+    System.out.println("a - b ="+(a - b));// output: a - b = 7
+    System.out.println("a * b ="+(a * b));// output: a * b = 30
+    System.out.println("a / b ="+(a / b));// output: a / b = 3
+    System.out.println("a % b ="+(a % b));// output a % b = 1
+
+    double x = 10 y =3;
+    System.out.println("x / y ="+(x / y ));//output x / y
+    = 3.33333335
+
+    System.out.println("\na == b: " + (a == b));//output a == b: false
+    System.out.println("a != b: " + (a != b));//output a ! = b: true
+    System.out.println("a > b: " + (a > b));//output a > = b: true 
+    System.out.println("a < b: " + (a < b));//output a < = b: false
+
+    boolean p = true,1 q = false;0
+    System.out.println("\np && q: " + (p && q));// output:false
+    System.out.println("!p || q " + (p || q));// output: true
+    System.out.println("!p: " + (!p));// output : false
+
+    int score = 50;
+    score += 10;
+    System.out.println("\nscore after += 10: " + score);// output: score after +=10: 60
+    score *= 2;
+    System.out.println("score after *= 2: " + score);//output: score after *=2: 120
+
+    int counter = 5;
+    System.out.println("\ncounter++ (post): " + counter++):
+    // output:counter++ (post): 5
+    System.out.println("counter now: " + counter);// counter now : 6
+    System.out.ptintln("++counter (pre): " + ++counter);//output ++counter (pre): 7
+  }
+}
+// Control Flow(if/else if/ else, switch, loops)
+
+//if / else if /if
+import java.util.Scanner;
+
+public class Main {
+  public static void main(string[] args){
+    Scanner scanner = new Scanner(System.in);
+
+    System.out.print("Enter your exam score: ");
+    int score = scanner.nextInt();
+
+    if (score >= 90) {
+      System.out.println("Grade: A");
+    } else if (score >= 80) {
+      System.ut.ptintln("Grade: B");
+    } else if (score >= 70) {
+      System.out.println("Grade: C");
+    } else {
+      System.out.println("Grade: F");
+    }
+  }
+}
+
+
